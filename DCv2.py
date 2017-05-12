@@ -149,15 +149,10 @@ access a coSpace",
 
 # the code begins here
 
-cmsIp = "10.106.170.214" 	
-cmsPort = "445" 			
-cmsLogin = "api" 			
-cmsPassword = "api" 	
-
-#cmsIp = raw_input("CMS IP Address: ")
-#cmsPort = raw_input("CMS Port Number for https: ")
-#cmsLogin = raw_input("CMS Username: ")
-#cmsPassword = raw_input("CMS Password: ")
+cmsIp = raw_input("CMS IP Address: ")
+cmsPort = raw_input("CMS Port Number for https: ")
+cmsLogin = raw_input("CMS Username: ")
+cmsPassword = raw_input("CMS Password: ")
 
 while 1:
 	command = raw_input("cms>")
